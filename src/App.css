@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./assets/heart.jpg);
+  background-size: cover;
+}
+
+h1 {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(202, 57, 166, 0.708)
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.button {
+  width: 300px;
+  height: 100px;
+  margin: 50px;
+  background-color: peachpuff;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+
+.image-container {
+  width: 600px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.message-container {
+  font-size: 2em;
+  width: 600px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: end;
+  font-size: 1.3em;
+  padding: 0 30px 10px 0;
+}
